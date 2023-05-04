@@ -1,11 +1,11 @@
-About mobie
-===========
+About mobie-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mobie-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mobie/mobie-cmd
 
 Package license: BSD-2-clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mobie-feedstock/blob/main/LICENSE.txt)
 
 Summary: Viewer for big multi-modal image data
 
