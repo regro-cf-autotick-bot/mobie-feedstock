@@ -32,7 +32,11 @@ test:
   imports:
     - mobie
   commands:
-    - mobie --help
+    # all should show help message
+    - mobie project
+    - mobie files
+    - mobie table
+    - mobie hcs
 
 about:
   home: https://github.com/mobie/mobie-cmd
