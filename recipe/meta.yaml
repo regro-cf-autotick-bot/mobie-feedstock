@@ -1,20 +1,20 @@
 {% set name = "mobie" %}
-{% set version = "3.0.12" %}
+{% set version = "4.0.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 5b418e4c190e07e0c9761e25a396fc7cea1f75bd59010682386bffbe161e61d8
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d2f79540b675b5fe528f3f3e1cfae0a6b8582bb296c38324d2db7b223b8eb58f
 
 build:
   noarch: python
-  number: 1
+  number: 0
   entry_points:
     - mobie=mobie:launch_mobie
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,11 +35,11 @@ test:
     - mobie --help
 
 about:
-  home: "https://github.com/mobie/mobie-cmd"
+  home: https://github.com/mobie/mobie-cmd
   license: BSD-2-clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: "Viewer for big multi-modal image data"
+  summary: Viewer for big multi-modal image data
 
 extra:
   recipe-maintainers:
