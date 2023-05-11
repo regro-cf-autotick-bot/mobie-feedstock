@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mobie-feedstock
 
 Home: https://github.com/mobie/mobie-cmd
 
-Package license: BSD-2-clause
+Package license: BSD-2-Clause
 
 Summary: Viewer for big multi-modal image data
 

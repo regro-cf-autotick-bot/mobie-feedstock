@@ -1,5 +1,5 @@
 {% set name = "mobie" %}
-{% set version = "4.0.3" %}
+{% set version = "4.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2d4457e7236f609463a8299034da5dd481f49227c2423b8dcc3a0134184d6986
+  sha256: 1d4f6d822295a2f69cb3cddf909fa53a60c49ab89b43e8c2768eb13d5b106772
 
 build:
   noarch: python
